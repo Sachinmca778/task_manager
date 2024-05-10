@@ -6,6 +6,14 @@ class TasksController extends AppController {
     public $helpers = array('Html', 'Form', 'Paginator');
     public $components = array('Paginator');
 
+    // public function beforeFilter() {
+    //     parent::beforeFilter();
+    //     if (!$this->Session->check('User')) {
+    //         $this->Flash->error('You must be logged in to access this page.');
+    //         $this->redirect(array('controller' => 'users', 'action' => 'login'));
+    //     }
+    // }
+
     // public function index() {
     //     $this->set('tasks', $this->Task->find('all'));
     // }
